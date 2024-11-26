@@ -1,6 +1,12 @@
 @media (max-width: 768px) {
+    body{
+        justify-content: center;
+        margin: auto;
+        align-items: center;  
+    }
     #profile {
         padding: 30px;
+        margin : auto;
     }
 
     #skills, #experience {
@@ -18,7 +24,7 @@
     }
 
     .contact-content {
-        padding: 20px;
+        padding: 10%;
     }
 
     #navbar {
