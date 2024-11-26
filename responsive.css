@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+    #profile {
+        padding: 30px;
+    }
+
+    #skills, #experience {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #skills-experience-container {
+        flex-direction: column;
+    }
+
+    .social-icons img {
+        width: 10%;
+    }
+
+    .contact-content {
+        padding: 20px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    .profile-pic img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .social-icons img {
+        width: 10%;
+    }
+
+    #skills, #experience {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .social-footer img {
+        width: 20px;
+        margin: 2px;
+    }
+
+    #contact button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 75%;
+    }
+
+    #navbar {
+        gap: 10px;
+        padding: 10px;
+        width: 20%;
+    }
+}
