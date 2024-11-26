@@ -1,3 +1,9 @@
+@media (max-width: 1024) {
+    header a {
+        font-size: small;
+    }
+}
+
 @media (max-width: 768px) {
     body{
         justify-content: center;
@@ -7,13 +13,9 @@
     header{
         max-width: max-content;
     }
-    #profile {
-        padding: 30px;
-        margin : auto;
-    }
 
-    #skills, #experience {
-        width: 100%;
+    #skills, #experience, #education, #contact {
+        width: 80%;
         flex-direction: column;
         gap: 20px;
     }
@@ -23,11 +25,7 @@
     }
 
     .social-icons img {
-        width: 10%;
-    }
-
-    .contact-content {
-        padding: 10%;
+        width: 30%;
     }
 
     #navbar {
@@ -35,6 +33,7 @@
         justify-content: center;
         margin: auto;
         align-items: center;
+        gap: 30px;
     }
 
     .profile-pic img {
@@ -44,17 +43,31 @@
 }
 
 @media (max-width: 480px) {
-
-    header{
+    header {
         max-width: max-content;
+        margin:  auto;
+        text-align: center;
     }
+
+    .social-icons {
+
+        justify-content: center;
+    }
+
     .social-icons img {
         width: 10%;
     }
 
-    #skills, #experience {
-        width: 100%;
+    #skills, #experience, #education, #contact {
+        width: 80%;
         padding: 10px;
+        text-align: center;
+    }
+
+    .social-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .social-footer img {
@@ -65,15 +78,20 @@
     #contact button {
         padding: 8px 15px;
         font-size: 14px;
+        margin:  auto;
     }
 
     footer {
         font-size: 75%;
+        text-align: center;
     }
 
     #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 10px;
         padding: 10px;
-        width: 20%;
+        width: auto;
     }
 }
