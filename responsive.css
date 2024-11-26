@@ -4,6 +4,9 @@
         margin: auto;
         align-items: center;  
     }
+    header{
+        max-width: max-content;
+    }
     #profile {
         padding: 30px;
         margin : auto;
@@ -42,6 +45,9 @@
 
 @media (max-width: 480px) {
 
+    header{
+        max-width: max-content;
+    }
     .social-icons img {
         width: 10%;
     }

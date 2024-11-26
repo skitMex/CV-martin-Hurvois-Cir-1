@@ -74,13 +74,10 @@ h1 {
     background: white;
 }
 
-h2 {
-    font-size: 22px;
-}
 
 .education-item {
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
     margin-bottom: 10px;
 }
 
@@ -118,6 +115,8 @@ h2 {
     margin: 20px;
     padding: 20px;
     background: white;
+
+   
 
 }
 
@@ -191,4 +190,15 @@ footer {
 i:hover{
     transform: scale(1.5);
     background-color: aliceblue;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+h3{
+    border-right: 2px solid black;
+    padding: 5px;
 }
